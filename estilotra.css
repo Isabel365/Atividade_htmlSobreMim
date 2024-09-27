@@ -1,0 +1,147 @@
+body{
+    background-color: #bbee8ea2;
+}
+h1{
+    background-color:#98c273;
+    display: flex;
+    justify-content: center;
+    color:#465a35
+}
+h2{
+    background-color:#98c273;
+    color:#4b6336
+}
+h4{
+    color:#4b6336;
+    background-color:#98c273;
+}
+.comenP{
+    border: 2px dashed #98c273;
+    width: 100px;
+}
+.comenL{
+    border: 2px dashed #98c273;
+    width: 100px;
+}
+.comenN{
+    border: 2px dashed #98c273;
+    width: 100px;
+}
+.comenB{
+    border: 2px dashed #98c273;
+    width: 100px;
+}
+.au{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu {
+    background-color:#98c273;
+    margin: 0px;
+}
+.botao {
+    background-color: #6d8d51;
+    color: white;
+    padding: 10px 15px; /* Tamanho do botão  */
+    text-align: center; /* deixar o texto no centro  */
+    text-decoration: none; /* isso é para tirar a linha no link que aparace e outro estilos  */
+    display: inline-block; /*   */
+    font-size: 16px; /* Tamanho do texto  */
+    margin: 10px 2px; /* separação entre os botão  */
+    cursor: pointer; /* Deixa no curso no modo click  */
+    border-radius: 10px; /* Deixa o botão com bordas arredondadas  */
+    font-family: 'Courier New', Courier, monospace;
+  }
+.imgau {
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+}
+.mae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.m1{
+    width: 250px;
+    margin-right: 25px;
+}
+.m2{
+    width: 370px;
+    height: 250px;
+    margin-right: 25px;
+}
+.p1{
+    height: 250px;
+}
+.m3{
+    height: 250px;
+    margin-right: 25px;
+}
+.m4{
+    height: 188px;
+    width: 150px;
+    margin-right: 25px;
+}
+.titulo{
+    display: flex;
+    justify-content: space-around;
+}
+.texto{
+    text-align :center;
+}
+
+.list{
+    display: flex;
+}
+.s{
+    width: 200px;
+    height: 400px;
+}
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+table, td, th{
+    border: 2px solid #6d8d51;
+    text-align: left;
+}
+table{
+    border-collapse:collapse;
+    width: 100%
+
+}
+td, th{
+    padding: 15px;
+    font-size: 20px;
+}
+tr:hover{
+    background: #b2dd8c;
+}
+th{
+    background-color: #98c273;
+    color: white
+}
+
+.ancoras{
+    background-color:  #98c273;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px; /* Tamanho do botão  */
+    text-decoration: none; /* isso é para tirar a linha no link que aparace e outro estilos  */
+    display: inline-block; /* Permite que posso ficar um do lado do outro */
+    font-size: 14px; /* Tamanho do texto  */
+    margin: 10px 2px; /* separação entre os botão  */
+    cursor: pointer; /* Deixa no curso no modo click  */
+    border-radius: 10px; /* Deixa o botão com bordas arredondadas  */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .centro{
+    text-align: center;
+  }
+  .margin{
+    margin-top: 30px;
+  }
